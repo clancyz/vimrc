@@ -212,6 +212,16 @@ set si "Smart indent
 set wrap "Wrap lines
 
 
+
+""""""""""""""""""""""""""""""
+" => Insert mode related
+""""""""""""""""""""""""""""""
+
+:imap ii <Esc>
+
+inoremap <C-e> <Esc>A
+inoremap <C-a> <Esc>I
+
 """"""""""""""""""""""""""""""
 " => Visual mode related
 """"""""""""""""""""""""""""""
